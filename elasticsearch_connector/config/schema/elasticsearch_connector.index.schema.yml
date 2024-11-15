@@ -1,0 +1,21 @@
+# The elasticsearch_connector.index.* config entity is deprecated in 8.0.x and
+# will be removed in 9.0.x.
+elasticsearch_connector.index.*:
+  type: config_entity
+  label: 'Elasticsearch Index'
+  mapping:
+    index_id:
+      type: string
+      label: 'Index ID'
+    name:
+      type: string
+      label: 'Index Name'
+    num_of_shards:
+      type: integer
+      label: 'Shards'
+    num_of_replica:
+      type: integer
+      label: 'Replica'
+    server:
+      type: string
+      label: 'Cluster machine name'

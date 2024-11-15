@@ -1,0 +1,8 @@
+name: Elasticsearch Connector
+description: Provides an ElasticSearch backend for Search API.
+php: 8.0
+core_version_requirement: ^9 || ^10 || ^11
+package: Search
+type: module
+dependencies:
+  - search_api:search_api

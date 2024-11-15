@@ -1,0 +1,10 @@
+type: module
+name: 'ElasticSearch Connector Test'
+description: 'ElasticSearch Connector test module'
+package: 'Search'
+dependencies:
+  - elasticsearch_connector:elasticsearch_connector
+  - search_api:search_api_test
+  - search_api:search_api_test_example_content
+core_version_requirement: ^9 || ^10 | ^11
+hidden: true
